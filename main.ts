@@ -1,4 +1,7 @@
-player.onChat("Ponte", function () {
+/**
+ * Execute esse código para construir a ponte. Então volte ao código e altere o material para pedra, e mude a lardura que a ponte terá.
+ */
+player.onChat("ponte", function () {
     blocks.fill(
     SPRUCE_WOOD_SLAB,
     world(-442, 68, -839),
